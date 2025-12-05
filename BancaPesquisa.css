@@ -1,0 +1,31 @@
+/* classe do cabeçalho */
+.Cabe{
+    background-color: rgb(85, 85, 85);
+}
+/* classe da barra de pesquisa */
+.Barrapesquisa{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
+}
+.body{
+    background-color: gray;
+}
+.oscards{
+    margin: 2px;
+    padding: 0px;
+    width: 32.9%;
+    border-radius: 10px;
+    
+}
+.ogrupodecards{
+ margin-left: 9px;
+}
+.infosdoscards{
+    background-color: gray;
+    color: azure;
+}
+.tags{
+    background-color: darkgrey;
+}
