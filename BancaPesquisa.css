@@ -1,3 +1,39 @@
+
+
+
+/*------------------------------------*/
+/*Aline*/
+.header{
+    position: fixed;
+    height: 70px;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.content{
+    margin-top: 70px;
+    min-height: calc(100vh - 70px);
+}
+
+h6{
+    background-color: rgb(169, 169, 169);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: inline-block; /*faz não ocupar toda a linha*/
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+
+    margin: 5px;
+
+    font-size: 20px;
+}
+/*------------------------------------*/
+
+
 /* classe do cabeçalho */
 .Cabe{
     background-color: rgb(85, 85, 85);
@@ -27,5 +63,7 @@
     color: azure;
 }
 .tags{
-    background-color: darkgrey;
+    /*Aline mexeu*/
+    /*background-color: darkgrey;*/
+    background-color: rgb(255, 255, 255);
 }
