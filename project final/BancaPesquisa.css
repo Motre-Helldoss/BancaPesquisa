@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {  
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* adicionei uma nova fonte (artur) */
+
+/*------------------------------------*/
+/*Aline*/
+.header{
+    position: fixed;
+    height: 70px;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.content{
+    margin-top: 70px;
+    min-height: calc(100vh - 70px);
+}
+
+span{
+    color:  rgb(253, 21, 21);
+    border: solid 2px; 
+    border-radius: 15px;
+    border-color: rgb(153, 0, 0);
+    display: inline-block; /*faz não ocupar toda a linha*/
+    padding: 1%;
+    margin: 5px;
+    font-size: 15px;
+    width:40%; 
+    text-align: center;
+    transition: all ease 0.4s;
+
+    /* artur mexeu */
+}
+
+span:hover {
+
+    background-color:  rgb(153, 9, 239);
+    color: white;
+    transition: all ease 0.4s;
+    border-color:  rgb(143, 9, 239) ;
+}
+/*------------------------------------*/
+
+
+/* classe do cabeçalho */
+.Cabe{
+    background-color: rgb(85, 85, 85);
+}
+/* classe da barra de pesquisa */
+.Barrapesquisa{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border: transparent;
+    outline: black;
+    width: 30%;
+    margin-top: 1.5%;
+    padding: 5px;
+    /* artur mexeu */
+}
+
+.Barrapesquisa::placeholder {
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    /* edição de placeholder(artur) */
+}
+
+.body{
+    background-color: gray;
+}
+.oscards{
+    margin: 3px;
+    padding: 0px;
+    width: 32.9%;
+    border-radius: 10px;
+    border:solid 1px black;
+    background-color: rgb(200, 200, 200);
+    
+}
+.ogrupodecards{
+ margin-left: 9px;
+}
+.infosdoscards{
+    background-color: gray;
+    color: azure;
+}
+.tags{
+    /*Aline mexeu*/
+    /*background-color: darkgrey;*/
+    background-color: rgb(255, 255, 255);
+}
+
+/* botão de acesso a página individual */
+
+.custom-btn {
+    color: white;
+    border-radius: 20px;
+    border: solid 2px  rgb(85, 85, 85); 
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.custom-btn:hover {
+    background-color:  rgb(85, 85, 85);
+    color: white;
+    transition: all ease 0.2s;
+}
+
+.centro {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    display: flex;
+   margin-top: 1.5%;
+    
+}
+
+.arredondar {
+    border-radius: 15px;
+
+}
+.conteudo {
+  margin: auto;
+  display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(38, 38, 38);
+    border-radius: 20px;
+    margin-bottom: 15%;
+}
+.descricao {
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 15px;
+    color: black;
+    margin-top: 20px;
+    font-size: 25px;
+
+    height: 15%;
+    overflow-y: auto; /* pra rolar caso passe do tamanho */
+}
+
+.img {
+    border-radius: 15px;
+    border: solid 2px rgb(85, 85, 85);
+    margin-right:30px;
+    width: 100%;
+}
+
+.editais {
+     
+  margin: auto;
+  display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(38, 38, 38);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+     display: flex;
+  flex-direction: column;
+  align-items: center;    
+  text-align: center; 
+  font-size: 20px;
+    color: 
+    white;
+}
+.text-purple {
+    color: rgb(9, 179, 179);
+}
+
+.i {
+    font-size: 25px;
+    padding-right:10px;
+}
+.largura {
+    width: 80%;
+    margin: auto;
+}
+
+i{
+    font-size: 25px;
+    margin: auto   ;
+}
+.blur-fundo {
+    backdrop-filter: blur(20px);
+      background: linear-gradient(135deg, 
+                rgba(33, 37, 41, 0.7),                  rgba(0, 0, 0, 0.7)    );
+                
+}
